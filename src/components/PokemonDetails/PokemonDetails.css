@@ -1,0 +1,44 @@
+.pd_root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.pd_button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.pd_button-spacing {
+    margin-left: .5rem;
+}
+
+.pd_container {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: .1rem
+}
+
+
+.pd_list-container {
+    display: grid;
+    grid-template-columns: repeat(5, 10rem);
+    grid-gap: 1rem;
+}
+
+
+.pd_card {
+    background-color: #ffffff;
+    border: .2rem solid #000000;
+    color: #000000;
+    border-radius: .3rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.pd_name {
+    text-align: center;
+}
